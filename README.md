@@ -1,0 +1,2 @@
+# fraktalparadox
+Website of FraktalParadox
