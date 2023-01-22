@@ -1,0 +1,117 @@
+.flex-container-article {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    border: solid white 2px;
+}
+
+.flex-container-article>#article-element {
+    text-align: center;
+    border: 2px;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+
+
+#logofile {
+    max-width: 5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+#social-links {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 3px;
+}
+
+/*
+div {
+    border: solid red 2px;
+}
+*/
+
+body, main, footer {
+    display: flex
+}
+
+
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.flex-container-header > div {
+    margin: 20px;
+}
+
+@media (max-width: 800px) {
+    .flex-container-header {
+	flex-direction: column;
+    }
+}
+
+body {
+    flex-direction: column
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+    background: #f4edd7;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background: #efe8d1;
+}
+
+#homecanopyfractal {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+#presentation {
+    text-align: center;
+}
+
+.menu, footer, #hometitle1, #homeimg {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.apps-menu {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #eeeeee;
+}
+
+#apps-list {
+    text-align: center;
+}
+    
+#footer-text {
+    font-size: 9px;
+}
